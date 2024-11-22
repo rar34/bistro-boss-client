@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar sticky z-50 bg-opacity-30 bg-black text-white container">
+            <div className="navbar fixed z-50 bg-opacity-30 bg-black text-white container">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="lg:hidden">
