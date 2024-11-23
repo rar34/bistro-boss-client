@@ -1,6 +1,7 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
 
@@ -25,7 +26,7 @@ const Navbar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Bistro Boss Restaurant</a>
+                    <a className="btn flex btn-ghost text-xl"><img src={logo} height={50} width={50} alt="" /> <p>Bistro Boss <br /> <p className="text-base">Restaurant</p></p></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
