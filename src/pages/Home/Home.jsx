@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import BBoss from "./BBoss";
 import Category from "./Category";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Banner />
             <Category />
+            <BBoss />
         </div>
     );
 };
