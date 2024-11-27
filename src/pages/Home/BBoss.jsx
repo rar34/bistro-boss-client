@@ -4,7 +4,7 @@ import bgImg from '../../assets/home/chef-service.jpg'
 const BBoss = () => {
     return (
         <div
-            className="hero my-24"
+            className="hero my-24 max-w-screen-xl mx-auto"
             style={{
                 backgroundImage: `url(${bgImg})`,
             }}>
