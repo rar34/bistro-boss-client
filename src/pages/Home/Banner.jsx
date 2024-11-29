@@ -11,30 +11,23 @@ const Banner = () => {
     return (
         <Carousel className="text-center" infiniteLoop= "true" autoPlay="true" interval="3000">
                 <div>
-                    <img src={img1} />
-                    
+                    <img src={img1} />                   
                 </div>
                 <div>
-                    <img src={img2} />
-                    
+                    <img src={img2} />                
                 </div>
                 <div>
                     <img src={img3} />
-                    
                 </div>
                 <div>
                     <img src={img4} />
-                    
                 </div>
                 <div>
                     <img src={img5} />
-                    
                 </div>
                 <div>
                     <img src={img6} />
-                    
                 </div>
-                
             </Carousel>
     );
 };

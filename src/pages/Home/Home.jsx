@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import BBoss from "./BBoss";
+import CallUs from "./CallUs";
 import Category from "./Category";
 import PopularMenu from "./PopularMenu";
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Category />
             <BBoss />
             <PopularMenu />
+            <CallUs />
         </div>
     );
 };
