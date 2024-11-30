@@ -3,6 +3,7 @@ import BBoss from "./BBoss";
 import CallUs from "./CallUs";
 import Category from "./Category";
 import PopularMenu from "./PopularMenu";
+import Recomends from "./Recomends";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <BBoss />
             <PopularMenu />
             <CallUs />
+            <Recomends />
         </div>
     );
 };
