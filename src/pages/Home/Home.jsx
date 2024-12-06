@@ -4,6 +4,7 @@ import CallUs from "./CallUs";
 import Category from "./Category";
 import PopularMenu from "./PopularMenu";
 import Recomends from "./Recomends";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <PopularMenu />
             <CallUs />
             <Recomends />
+            <Testimonials />
         </div>
     );
 };
