@@ -4,6 +4,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home";
 import Menu from "../pages/Menu/Menu";
+import Contact from "../pages/Contact/Contact";
   
   export const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ import Menu from "../pages/Menu/Menu";
         {
             path:"/menu",
             element: <Menu />
+        },
+        {
+            path:"/contact",
+            element: <Contact />
         },
       ]
     },
