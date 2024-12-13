@@ -5,7 +5,7 @@ import "./featured.css"
 
 const Featured = () => {
     return (
-        <div className="bgImg py-20 text-white">
+        <div className="bgImg py-20 text-white my-24">
             <SectionTitle heading="FROM OUR MENU" subHeading="Check it out" />
             <div className="flex flex-col justify-center items-center my-24 max-w-screen-xl mx-auto md:flex-row gap-6">
                 <div className="flex-1">
