@@ -8,7 +8,7 @@ const Recomends = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="card bg-[#F3F3F3]">
                     <figure>
-                        <img className="w-[400px] rounded-lg h-72"
+                        <img className="w-full rounded-lg h-72"
                             src={cardImg}
                             alt="" />
                     </figure>
@@ -16,7 +16,7 @@ const Recomends = () => {
                         <h2 className="text-2xl font-semibold text-center">Caeser Salad</h2>
                         <p className="text-center">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
                         <div className="card-actions justify-center">
-                            <button className="px-7 py-4 border-b-2 border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
+                            <button className="px-7 py-4 hover:bg-[#BB8506] hover:text-white border-b-2 border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Recomends = () => {
                         <h2 className="text-2xl font-semibold text-center">Caeser Salad</h2>
                         <p className="text-center">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
                         <div className="card-actions justify-center">
-                            <button className="px-7 py-4 border-b-2 border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
+                            <button className="px-7 py-4 border-b-2 hover:bg-[#BB8506] hover:text-white border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Recomends = () => {
                         <h2 className="text-2xl font-semibold text-center">Caeser Salad</h2>
                         <p className="text-center">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
                         <div className="card-actions justify-center">
-                            <button className="px-7 py-4 border-b-2 border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
+                            <button className="px-7 py-4 border-b-2 hover:bg-[#BB8506] hover:text-white border-[#BB8506] text-[#BB8506] text-xl font-medium uppercase bg-[#E8E8E8] rounded-lg">add to cart</button>
                         </div>
                     </div>
                 </div>

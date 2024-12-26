@@ -1,8 +1,9 @@
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 const Testimonials = () => {
     return (
         <div>
-            Testimonials here..........
+            <SectionTitle subHeading={"What Our Clients Say"} heading={"TESTIMONIALS"}></SectionTitle>
         </div>
     );
 };
