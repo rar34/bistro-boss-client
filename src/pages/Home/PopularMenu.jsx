@@ -26,7 +26,7 @@ const PopularMenu = () => {
                 }
             </div>
             <div className="text-center">
-                <Link to={"/menu"}><button className="text-xl font-medium border-b-4 rounded-lg  uppercase border-black py-4 px-7">View Full  Menu</button></Link>
+                <Link to={"/menu"}><button className="text-xl font-medium border-b-4 rounded-lg hover:bg-black hover:text-white  uppercase border-black py-4 px-7">View Full  Menu</button></Link>
             </div>
         </div>
     );
