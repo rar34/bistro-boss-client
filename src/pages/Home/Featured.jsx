@@ -5,13 +5,13 @@ import "./featured.css"
 
 const Featured = () => {
     return (
-        <div className="bgImg py-20 text-white my-24">
+        <div className="bgImg pt-20 text-white my-24">
             <SectionTitle heading="FROM OUR MENU" subHeading="Check it out" />
-            <div className="flex flex-col justify-center items-center my-24 max-w-screen-xl mx-auto md:flex-row gap-6">
-                <div className="flex-1">
+            <div className="md:flex gap-6 justify-center items-center py-20 px-36">
+                <div className="">
                     <img className="" src={FeaturedImg} alt="" />
                 </div>
-                <div className="flex-1">
+                <div className="">
                     <p className="text-2xl">December 14, 2024</p>
                     <p className="text-2xl">WHERE CAN I GET SOME?</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed impedit doloribus ut nam vel, error fugit deserunt voluptas! Ipsum doloremque recusandae, aspernatur animi dolores cum quia magnam sit. Veniam necessitatibus accusamus eaque consequatur cumque ratione corrupti placeat illum ea obcaecati! Vitae quia nemo ab necessitatibus! Enim dicta quaerat nesciunt necessitatibus?</p>
