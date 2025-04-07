@@ -16,7 +16,7 @@ const PopularMenu = () => {
             })
     }, [])
 
-    console.log(menu)
+    // console.log(menu)
     return (
         <div>
             <SectionTitle heading={'FROM OUR MENU'} subHeading={"Check it out"} />
