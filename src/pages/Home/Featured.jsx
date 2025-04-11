@@ -8,7 +8,7 @@ const Featured = () => {
         <div className="bgImg text-white my-24">
             <div className="bg-black bg-opacity-65 bg-fixed pt-20">
                 <SectionTitle heading="FROM OUR MENU" subHeading="Check it out" />
-                <div className="md:flex gap-6 justify-center items-center py-20 px-36">
+                <div className="md:flex gap-6 justify-center items-center pb-16 max-w-screen-xl mx-auto">
                     <div className="">
                         <img className="" src={FeaturedImg} alt="" />
                     </div>
