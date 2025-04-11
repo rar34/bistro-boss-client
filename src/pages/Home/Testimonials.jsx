@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import { Rating } from '@smastrom/react-rating'
 
 import '@smastrom/react-rating/style.css'
+import { FaQuoteLeft } from "react-icons/fa";
 
 
 const Testimonials = () => {
@@ -30,6 +31,7 @@ const Testimonials = () => {
                 {
                     reviews?.map(review => <SwiperSlide className="px-14" key={review._id}>
                         <div className="flex flex-col items-center space-y-4">
+                            <FaQuoteLeft className="text-2xl md:text-5xl" />
                             <Rating
                                 style={{ maxWidth: 180 }}
                                 value={review.rating}
